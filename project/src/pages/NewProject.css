@@ -1,0 +1,21 @@
+.NewProject_Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+}
+
+.NewProject_Container h1{
+    margin-bottom: 0.4em;
+}
+
+
+.NewProject_Container p{
+    margin-bottom: 0.7em;
+    color: #7b7b7b;
+}
+
+
+
+

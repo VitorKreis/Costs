@@ -1,0 +1,68 @@
+.service_card{
+    border: 0.18em solid #7a7a7a;
+    border-radius: 5px;
+    width: 15%;
+    display: inline-table;
+    margin: 0.5%;
+    justify-content: space-evenly;
+    box-shadow: 7px 7px 7px #A8A8B3;
+}
+
+
+
+.service_card h4{
+    background-color: #121214;
+    color: #FFBB33;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    padding: .3em;
+    margin-bottom: 0.4em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+.service_card p{
+    color: #3C3C42;
+    margin-bottom: 0.7em;
+    margin-left: 0.5em;
+}
+
+
+.service_card span{
+    font-weight: bold;
+}
+
+
+.service_action{
+    margin: 1em;
+    display: flex;
+}
+
+.service_action button{
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #222;
+    font-size: .7em;
+    padding: 0.6em 0.7em;
+    margin-right: 0.7em;
+    cursor: pointer;
+    border: 1px solid #222;
+    transition: 0.6s;
+}
+
+
+.service_action svg{
+    margin-right: 0.3em;
+}
+
+.service_action a:hover,
+.service_action button:hover{
+
+    background-color: #222;
+    color: #FFBB33;
+
+}
