@@ -1,0 +1,82 @@
+{
+  "project": [
+    {
+      "name": "Projeto Costs",
+      "budget": "12000",
+      "category": {
+        "id": "3",
+        "name": "Desing"
+      },
+      "cost": 120,
+      "service": [
+        {
+          "name": "AWS",
+          "cost": "120",
+          "description": "Contratar um servidor para hospedar o site",
+          "id": "3e3a3f11-c317-4e02-9a11-c01143398bf1"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Project CoffeShop",
+      "budget": "12000",
+      "category": {
+        "id": "3",
+        "name": "Desing"
+      },
+      "cost": null,
+      "service": [
+        {
+          "id": "35f23777-d040-4b66-af62-877bb98f8dce"
+        },
+        {
+          "id": "35f23777-d040-4b66-af62-877bb98f8dce"
+        },
+        {
+          "id": "7722dbf2-4ed8-458d-96d3-21675ccb569a"
+        }
+      ]
+    },
+    {
+      "name": "App Pomodoro",
+      "budget": "1000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": null,
+      "service": [
+        {
+          "name": "Server",
+          "cost": "100",
+          "description": "buy a server",
+          "id": "292bba95-3450-41f8-bdd2-432d47de6559"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Development"
+    },
+    {
+      "id": 3,
+      "name": "Desing"
+    },
+    {
+      "id": 4,
+      "name": "Planning"
+    },
+    {
+      "id": 5,
+      "name": "Other"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: -7em;
+    min-height: 0%;
+    height: -0em;
+}
+
+
+.footer{
+    background-color: #0C0D11;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+.social_list li{
+    margin-left: 1em;
+}
+
+.social_list a{
+    color: white;
+    font-size: 22px;
+}
+
+.social_list a:hover{
+    color: #ffbb33;
+    cursor: pointer;
+}
+
+
+.copy{
+    font-size: 20px;
+}
+
+
+.copy span{
+    color: #ffbb33;
+}
+
+
+
